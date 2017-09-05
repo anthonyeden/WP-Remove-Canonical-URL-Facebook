@@ -2,7 +2,7 @@
 
 /*
 Plugin Name: Remove Canonical URLs for Facebook
-Plugin URI: https://mediarealm.com.au/
+Plugin URI: https://mediarealm.com.au/wordpress-plugins/
 Description: Stops Yoast SEO from sending custom Canonical URLs to the Facebook crawler
 Version: 1.0.0
 Author: Media Realm
