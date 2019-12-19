@@ -1,12 +1,12 @@
-=== Remove Yoast Canonical URL for Facebook ===
+=== Remove Yoast Canonical URL for Social ===
 Contributors: anthonyeden
-Tags: facebook, seo, yoast, canonical
+Tags: facebook, seo, yoast, canonical, social
 Requires at least: 4.0.0
 Tested up to: 4.8
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-This plugin removes manually entered Yoast SEO Canonical URLs when Facebook crawls any page on your website.
+This plugin removes manually entered Yoast SEO Canonical URLs when social media networks such as Facebook crawl any page on your website.
 
 == Description ==
 
@@ -37,6 +37,9 @@ You can try using the [Sharing Debugger](https://developers.facebook.com/tools/d
 Unfortunatly not. It applies site-wide.
 
 == Changelog ==
+
+= 1.0.1 =
+* Rename the plugin
 
 = 1.0 =
 * Initial release
