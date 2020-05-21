@@ -2,7 +2,7 @@
 Contributors: anthonyeden
 Tags: facebook, seo, yoast, canonical, social
 Requires at least: 4.0.0
-Tested up to: 4.8
+Tested up to: 5.4.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -37,6 +37,9 @@ You can try using the [Sharing Debugger](https://developers.facebook.com/tools/d
 Unfortunatly not. It applies site-wide.
 
 == Changelog ==
+
+= 1.0.2 =
+* Alter the og:url meta tag too
 
 = 1.0.1 =
 * Rename the plugin

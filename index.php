@@ -4,12 +4,13 @@
 Plugin Name: Remove Yoast Canonical URL for Social
 Plugin URI: https://mediarealm.com.au/wordpress-plugins/
 Description: Stops Yoast SEO from sending custom Canonical URLs to social media networks, such as the Facebook crawler
-Version: 1.0.1
+Version: 1.0.2
 Author: Media Realm
 Author URI: https://mediarealm.com.au/
 */
 
-add_filter('wpseo_canonical', 'remove_canonical_facebook_crawler', 10, 3);
+add_filter('wpseo_canonical', 'remove_canonical_facebook_crawler', 10, 1);
+add_filter('wpseo_opengraph_url', 'remove_canonical_facebook_crawler', 10, 1);
 
 function remove_canonical_facebook_crawler($canonical) {
     // Don't send a custom Canonical URL to the Facebook crawler
